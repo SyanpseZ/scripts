@@ -101,22 +101,31 @@ Section6:NewKeybind("Invitation To Hell", "Combo", Enum.KeyCode.KeypadEight, fun
     game:GetService("ReplicatedStorage").Kiryu.Remotes.InvitationtoHell:FireServer()
 end)
 
--- Misc Tab
-local Tab7 = Window:NewTab("Misc.")
+-- Random tab
+local Tab7 = Window:NewTab("Random moves")
 local Section7 = Tab7:NewSection("Moves")
 
-Section7:NewKeybind("Timestop", "Combo", Enum.KeyCode.KeypadEight, function()
+Section7:NewKeybind("Kaminari", "", Enum.KeyCode.KeypadEight, function()
+    game:GetService("ReplicatedStorage").randommoveset.remotes.kaminara:FireServer()
+end)
+
+-- Misc Tab
+local Tab8 = Window:NewTab("Misc.")
+local Section8 = Tab8:NewSection("Moves")
+
+Section8:NewKeybind("Timestop", "Combo", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").randommoveset.remotes.timestop:FireServer()
 end)
 
-Section7:NewKeybind("idek tbf", "Combo", Enum.KeyCode.KeypadEight, function()
+Section8:NewKeybind("idek tbf", "Combo", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").Grace.Violation:FireServer()
 end)
 
-Section7:NewKeybind("Mousepay", "Equip mousepay", Enum.KeyCode.KeypadEight, function()
+Section8:NewKeybind("Mousepay", "Equip mousepay", Enum.KeyCode.KeypadEight, function()
     workspace[plr.Name].mousepay.Fire:FireServer(CFrame)
 end)
 
-Section7:NewKeybind("School shooter", "", Enum.KeyCode.KeypadEight, function()
+Section8:NewKeybind("School shooter", "", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").Grace.LMBRemotes.RemoteEvent:FireServer()
 end)
+
