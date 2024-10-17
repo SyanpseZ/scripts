@@ -109,18 +109,18 @@ Section7:NewKeybind("Kaminari", "", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").randommoveset.remotes.kaminara:FireServer()
 end)
 
--- Misc Tab
-local Tab8 = Window:NewTab("Misc.")
-local Section8 = Tab8:NewSection("Moves")
-
-Section8:NewKeybind("Timestop", "Combo", Enum.KeyCode.KeypadEight, function()
+Section7:NewKeybind("Timestop", "Combo", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").randommoveset.remotes.timestop:FireServer()
 end)
 
-Section8:NewKeybind("Mochi", "Combo", Enum.KeyCode.KeypadEight, function()
+Section7:NewKeybind("Mochi", "Combo", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").randommoveset.remotes.mochi:FireServer()
 end)
 
+
+-- Misc Tab
+local Tab8 = Window:NewTab("Misc.")
+local Section8 = Tab8:NewSection("Moves")
 
 Section8:NewKeybind("idek tbf", "Combo", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").Grace.Violation:FireServer()
