@@ -1,1 +1,2 @@
-Shitty script hub, in making by attium
+Shitty script hub, in making 
+- attium
