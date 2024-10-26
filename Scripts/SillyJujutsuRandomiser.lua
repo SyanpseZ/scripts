@@ -117,6 +117,16 @@ Section7:NewKeybind("Mochi", "Combo", Enum.KeyCode.KeypadEight, function()
     game:GetService("ReplicatedStorage").randommoveset.remotes.mochi:FireServer()
 end)
 
+Section7:NewKeybind("Mochi", "Combo", Enum.KeyCode.KeypadEight, function()
+    game:GetService("ReplicatedStorage").randommoveset.remotes.mochi:FireServer()
+end)
+
+Section7:NewKeybind("Suplex", "Combo", Enum.KeyCode.KeypadEight, function()
+    game:GetService("ReplicatedStorage").sukuna.remotes.suplex:FireServer()
+end)
+Section7:NewKeybind("Volcanic Rush", "Combo", Enum.KeyCode.KeypadEight, function()
+    game:GetService("ReplicatedStorage").sukuna.remotes.jogo:FireServer()
+end)
 
 -- Misc Tab
 local Tab8 = Window:NewTab("Misc.")
