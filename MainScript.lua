@@ -10,4 +10,5 @@ elseif game.PlaceId == 18571010582 then -- KaizenBG
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SyanpseZ/scripts/refs/heads/main/Scripts/KaizenBattlegrounds.lua"))()
 else
     print("Not in a valid game")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SyanpseZ/scripts/refs/heads/main/Scripts/InvalidGame.lua"))()
 end
