@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Kaizen Battleground"})
+local Window = OrionLib:MakeWindow({Name = "Join A Game!"})
 
 local plr = game:GetService("Players").LocalPlayer
 
@@ -37,7 +37,7 @@ local Section = Tab1:AddSection({
 	Name = "Moves"
 })
 
-Tab:AddToggle({
+Tab1:AddToggle({
 	Name = "Ultra instinct?!?!",
 	Default = false,
 	Callback = function(Value)
@@ -46,7 +46,7 @@ Tab:AddToggle({
 })
 
 
-Tab:AddToggle({
+Tab1:AddToggle({
 	Name = "Firearrow(s)",
 	Default = false,
 	Callback = function(Value)
@@ -58,7 +58,7 @@ Tab:AddToggle({
 })
 
 
-Tab:AddToggle({
+Tab1:AddToggle({
 	Name = "Aura",
 	Default = false,
 	Callback = function(Value)
