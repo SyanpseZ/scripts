@@ -6,6 +6,8 @@ elseif game.PlaceId == 16732694052 then --FISCH
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SyanpseZ/scripts/refs/heads/main/Scripts/fisch.lua"))()
 elseif game.PlaceId == 904367475 then -- DBSAT
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SyanpseZ/scripts/refs/heads/main/Scripts/DragonBallSaiyansAbilityTest.lua"))()
+elseif game.PlaceId == 18571010582 then -- KaizenBG
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SyanpseZ/scripts/refs/heads/main/Scripts/KaizenBattlegrounds"))()
 else
     print("Not in a valid game")
 end
