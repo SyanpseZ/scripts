@@ -47,3 +47,10 @@ Tab1:AddButton({
         joinGame(904367475)
     end    
 })
+
+Tab1:AddButton({
+    Name = "Skillful",
+    Callback = function()
+        joinGame(11442626954)
+    end    
+})
