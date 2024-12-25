@@ -54,3 +54,11 @@ Tab1:AddButton({
         joinGame(11442626954)
     end    
 })
+
+Tab1:AddButton({
+    Name = "True Heart 3",
+    Callback = function()
+        joinGame(12179321613)
+    end    
+})
+
